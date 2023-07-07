@@ -3,8 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" type="text/css" />
+    <link rel="stylesheet" href="./css/cards.css" type="text/css" />
     <title>Tierra Gaucha</title>
   </head>
   <body>
@@ -12,12 +18,13 @@
       <nav class="navbar navbar-expand-lg navbar-dark bg-darkblue p-2">
         <div class="container-fluid row">
           <div class="col-2 navbar-brand text-center">
-              <a href="index.html">
-                <img 
-                  class="navbar--logotipo"
-                  src="./img/LogoTieggaGauchaBlanco.png" 
-                  alt="Logo Tierra Gaucha">
-              </a>
+            <a href="index.html">
+              <img
+                class="navbar--logotipo"
+                src="./img/LogoTieggaGauchaBlanco.png"
+                alt="Logo Tierra Gaucha"
+              />
+            </a>
           </div>
           <button
             class="col-1 justify-content-end navbar-toggler"
@@ -30,10 +37,15 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="col-10 justify-content-end collapse navbar-collapse" id="navbarNavDropdown">
+          <div
+            class="col-10 justify-content-end collapse navbar-collapse"
+            id="navbarNavDropdown"
+          >
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
+                <a class="nav-link" aria-current="page" href="./index.html"
+                  >Inicio</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
@@ -46,13 +58,33 @@
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                Destinos
+                  Destinos
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="./pages/destinos/noroeste.html">Noroeste</a></li>
-                  <li><a class="dropdown-item" href="./pages/destinos/centro.html">Centro</a></li>
-                  <li><a class="dropdown-item" href="./pages/destinos/patagonia.html">Patagonia</a></li>
-                  <li><a class="dropdown-item" href="./pages/destinos.html">Todos</a></li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./pages/destinos/noroeste.html"
+                      >Noroeste</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./pages/destinos/centro.html"
+                      >Centro</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item"
+                      href="./pages/destinos/patagonia.html"
+                      >Patagonia</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="./pages/destinos.html"
+                      >Todos</a
+                    >
+                  </li>
                 </ul>
               </li>
               <li class="nav-item">
@@ -63,9 +95,145 @@
         </div>
       </nav>
     </header>
-    <main>
-
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="./img/carrousel/colectivo-carrousel.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>¡Los mejores en nuestro rubro!</h5>
+            <p>¡Vanguardia y seguridad a donde quieras llegar!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./img/carrousel/avion-carrousel.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Viaja con nosotros</h5>
+            <p>!Suma millas con tierra gaucha¡</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="./img/carrousel/tren-carrousel.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Queremos ser parte de tu experiencia</h5>
+            <p>¡Con tierra gaucha a bordo!</p>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="container py-5">
+      <h1 class="text-center">Destinos</h1>
+      <div class="row row-cols-1 row-cols-md-3 g-4 py-5">
+        <div class="col">
+          <div class="card">
+            <img
+              src="./img/cards/noroeste.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Noroeste</h5>
+              <p class="card-text">
+                Naturaleza, gastronomía y misterio en Salinas, Quebrada y
+                Yungas.
+              </p>
+            </div>
+            <div class="mb-5 d-flex justify-content-around">
+              <button class="boton">Saber Más</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="./img/cards/centro.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Centro</h5>
+              <p class="card-text">
+                Historia, cultura y belleza en Buenos Aires, Mendoza y Córdoba.
+              </p>
+            </div>
+            <div class="mb-5 d-flex justify-content-around">
+              <button class="boton">Saber Más</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img
+              src="./img/cards/patagonia.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Patagonia</h5>
+              <p class="card-text">
+                Glaciares, naturaleza y aventura en Los Glaciares, Tierra del
+                Fuego y Fitz Roy.
+              </p>
+            </div>
+            <div class="mb-5 d-flex justify-content-around">
+              <button class="boton">Saber Más</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <main></main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
