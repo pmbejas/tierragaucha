@@ -2,6 +2,24 @@
     --color-fondo-navbar: rgb(0, 4, 52);
 }
 
+.cabecera-destinos {
+    background-image: url('../img/destinos/cabecera.jpg');
+    height: 250px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: .9;
+
+}
+
+.cabecera-destinos--texto-intro {
+    color: whitesmoke;
+}
+
+.parrafo {
+    margin: 0px;
+    padding: 0px;
+}
 .modal-header {
     padding: 4px 15px 4px 15px;
     background-color: var(--color-fondo-navbar);
