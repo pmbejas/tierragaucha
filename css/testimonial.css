@@ -1,32 +1,28 @@
 .testimonials {
   display: flex;
-  transition: transform 0.5s ease;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  max-width: 100%;
 }
 
 .testimonial {
-  flex: 0 0 33.33%;
+  flex-basis: calc(33.33% - 20px);
   padding: 20px;
   text-align: center;
 }
 
 .testimonial img {
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  max-width: 100px;
+  height: auto;
   border-radius: 50%;
   object-fit: cover;
   margin-bottom: 10px;
 }
 
-@media only screen and (min-width: 600px) {
+@media (max-width: 767px) {
   .testimonial {
-    flex: 0 0 calc(50% - 20px);
-    max-width: calc(50% - 20px);
-  }
-}
-
-@media only screen and (min-width: 1024px) {
-  .testimonial {
-    flex: 0 0 calc(33.33% - 20px);
-    max-width: calc(33.33% - 20px);
+    flex-basis: 100%;
   }
 }
