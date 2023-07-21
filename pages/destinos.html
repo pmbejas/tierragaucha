@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/destino.css">
     <title>Tierra Gaucha - Destinos</title>
   </head>
   <body>
@@ -38,22 +39,8 @@
               <li class="nav-item">
                 <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                Destinos
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="../pages/destinos/noroeste.html">Noroeste</a></li>
-                  <li><a class="dropdown-item" href="../pages/destinos/centro.html">Centro</a></li>
-                  <li><a class="dropdown-item" href="../pages/destinos/patagonia.html">Patagonia</a></li>
-                  <li><a class="dropdown-item" href="../pages/destinos.html">Todos</a></li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/destinos.html">Destinos</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../pages/contacto.html">Contacto</a>
@@ -64,7 +51,823 @@
       </nav>
     </header>
     <main>
+      <div class="container-fluid cabecera-destinos text-center d-flex align-items-center">
+        <div class="container-fluid">
+          <h4 class="cabecera-destinos--texto-intro">ENAMORATE DE NUESTRA ARGENTINA</h4>
+          <p class="cabecera-destinos--texto-intro parrafo">De norte a sur, Argentina te sorprenderá en cada paso.</p>
+          <p class="cabecera-destinos--texto-intro parrafo">¡Descubre sus maravillas junto a nosotros!</p>
+        </div>
+      </div>
+      <!-- Noroeste Argentino -->
+      <div class="container contenedor-cards text-center mt-1 mt-md-4 ">
+        <h5 class="container-titulo pt-3 pb-0">Noroeste Argentino</h5>
+        <div class="container row">
+          <div class="card col-12 col-md" >
+            <img src="../img/destinos/buenosaires/PMB_3066.jpg" class="card-img-top" alt="...">
+            <div class="card-body pt-2 ps-0 text-center">
+              <h6 class="card-title text-start p-0 m-0">Tucumán</h6>
+              <button type="button" class="btn btn-primary w-100 p-0 mt-2" data-bs-toggle="modal" data-bs-target="#modalTucuman">
+                Galeria de Fotos
+              </button>
+            </div>
+          </div>
+          <div class="card col-12 col-md" >
+            <img src="../img/destinos/cordoba/PMB_0001.jpg" class="card-img-top" alt="...">
+            <div class="card-body pt-2 ps-0">
+              <h6 class="card-title text-start p-0 m-0">Salta</h6>
+              <button type="button" class="btn btn-primary w-100 p-0 mt-2" data-bs-toggle="modal" data-bs-target="#modalSalta">
+                Galeria de Fotos
+              </button>
+            </div>
+          </div>
+          <div class="card col-12 col-md" >
+            <img src="../img/destinos/jujuy/PMB_1234.jpg" class="card-img-top" alt="...">
+            <div class="card-body pt-2 ps-0">
+              <h6 class="card-title text-start p-0 m-0">Jujuy</h6>
+              <button type="button" class="btn btn-primary w-100 p-0 mt-2" data-bs-toggle="modal" data-bs-target="#modalJujuy">
+                Galeria de Fotos
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>  
+      <!-- CENTRO DEL PAIS -->
+      <div class="container contenedor-cards text-center mt-1 mt-md-4 ">
+        <h5 class="container-titulo pt-3 pb-0">Centro del País</h5>
+        <div class="container row">
+          <div class="card col-12 col-md" >
+            <img src="../img/destinos/buenosaires/PMB_3066.jpg" class="card-img-top" alt="...">
+            <div class="card-body pt-2 ps-0 text-center">
+              <h6 class="card-title text-start p-0 m-0">Buenos Aires</h6>
+              <button type="button" class="btn btn-primary w-100 p-0 mt-2" data-bs-toggle="modal" data-bs-target="#modalBuenosAires">
+                Galeria de Fotos
+              </button>
+            </div>
+          </div>
+          <div class="card col-12 col-md" >
+            <img src="../img/destinos/cordoba/PMB_0001.jpg" class="card-img-top" alt="...">
+            <div class="card-body pt-2 ps-0">
+              <h6 class="card-title text-start p-0 m-0">Córdoba</h6>
+              <button type="button" class="btn btn-primary w-100 p-0 mt-2" data-bs-toggle="modal" data-bs-target="#modalCordoba">
+                Galeria de Fotos
+              </button>
+            </div>
+          </div>
+          <div class="card col-12 col-md" >
+            <img src="../img/destinos/mendoza/PMB_8650.jpg" class="card-img-top" alt="...">
+            <div class="card-body pt-2 ps-0">
+              <h6 class="card-title text-start p-0 m-0">Mendoza</h6>
+              <button type="button" class="btn btn-primary w-100 p-0 mt-2" data-bs-toggle="modal" data-bs-target="#modalMendoza">
+                Galeria de Fotos
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- PATAGONIA ARGENTINA -->
+      <div class="container contenedor-cards text-center mt-1 mt-md-4 mb-2 mb-md-4">
+        <h5 class="container-titulo pt-3 pb-0">Patagonia Argentina</h5>
+        <div class="container row">
+          <div class="card col-12 col-md" >
+            <img src="../img/destinos/valdez/PMB_4368.jpg" class="card-img-top" alt="...">
+            <div class="card-body pt-2 ps-0 text-center">
+              <h6 class="card-title text-start p-0 m-0">Península de Valdez</h6>
+              <button type="button" class="btn btn-primary w-100 p-0 mt-2" data-bs-toggle="modal" data-bs-target="#modalValdez">
+                Galeria de Fotos
+              </button>
+            </div>
+          </div>
 
+          <div class="card col-12 col-md" >
+            <img src="../img/destinos/bariloche/PMB_5892.jpg" class="card-img-top" alt="...">
+            <div class="card-body pt-2 ps-0">
+              <h6 class="card-title text-start p-0 m-0">Bariloche</h6>
+              <button type="button" class="btn btn-primary w-100 p-0 mt-2" data-bs-toggle="modal" data-bs-target="#modalBariloche">
+                Galeria de Fotos
+              </button>
+            </div>
+          </div>
+
+          <div class="card col-12 col-md" >
+            <img src="../img/destinos/ushuaia/PMB_5274.jpg" class="card-img-top" alt="...">
+            <div class="card-body pt-2 ps-0">
+              <h6 class="card-title text-start p-0 m-0">Tierra del Fuego</h6>
+              <button type="button" class="btn btn-primary w-100 p-0 mt-2" data-bs-toggle="modal" data-bs-target="#modalFuego">
+                Galeria de Fotos
+              </button>
+            </div>
+          </div>
+
+          
+          
+          
+        </div>
+      </div>  
+      <!-- MODAL NOROESTE ARGENTINO-->
+      <div class="modal fade modal-lg mt-3 mt-md-0" id="modalTucuman" tabindex="-1">
+        <div class="modal-dialog mt-0 mt-md-5">
+          <div class="modal-content p-0 m-0">
+            <div class="modal-header p-0 m-0 border-0 px-3 py-2 bg-black">
+              <h6 class="modal-title">Buenos Aires</h6>
+              <button type="button" class="btn-cerrar" data-bs-dismiss="modal" aria-label="Close">X</button>
+            </div>
+            <div class="modal-body p-0 mb-5 pb-4">
+
+                <div id="carouselTucuman" class="carousel slide" data-bs-ride="true">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../img/destinos/buenosaires/PMB_3066.jpg" class="d-block modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_8647-Mejorado-NR.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_8651-Mejorado-NR-2.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_2922.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_2954.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_3046.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_3077.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselTucuman" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselTucuman" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+  
+                <div class="carousel-indicators m-0 d-flex">
+                  <button type="button" data-bs-target="#carouselTucuman" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                      <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_3066.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselTucuman" data-bs-slide-to="1" aria-label="Slide 2">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_8647-Mejorado-NR.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselTucuman" data-bs-slide-to="2" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_8651-Mejorado-NR-2.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselTucuman" data-bs-slide-to="3" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_2922.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselTucuman" data-bs-slide-to="4" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_2954.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselTucuman" data-bs-slide-to="5" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_3046.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselTucuman" data-bs-slide-to="6" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_3077.jpg" class="img-fluid" />
+                  </button>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade modal-lg mt-3 mt-md-0" id="modalSalta" tabindex="-1">
+        <div class="modal-dialog mt-0 mt-md-5">
+          <div class="modal-content p-0 m-0">
+            <div class="modal-header p-0 m-0 border-0 px-3 py-2 bg-black">
+              <h6 class="modal-title">Buenos Aires</h6>
+              <button type="button" class="btn-cerrar" data-bs-dismiss="modal" aria-label="Close">X</button>
+            </div>
+            <div class="modal-body p-0 mb-5 pb-4">
+
+                <div id="carouselsalta" class="carousel slide" data-bs-ride="true">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../img/destinos/buenosaires/PMB_3066.jpg" class="d-block modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_8647-Mejorado-NR.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_8651-Mejorado-NR-2.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_2922.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_2954.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_3046.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_3077.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselsalta" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselsalta" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+  
+                <div class="carousel-indicators m-0 d-flex">
+                  <button type="button" data-bs-target="#carouselsalta" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                      <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_3066.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselsalta" data-bs-slide-to="1" aria-label="Slide 2">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_8647-Mejorado-NR.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselsalta" data-bs-slide-to="2" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_8651-Mejorado-NR-2.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselsalta" data-bs-slide-to="3" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_2922.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselsalta" data-bs-slide-to="4" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_2954.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselsalta" data-bs-slide-to="5" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_3046.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselsalta" data-bs-slide-to="6" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_3077.jpg" class="img-fluid" />
+                  </button>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade modal-lg mt-3 mt-md-0" id="modalJujuy" tabindex="-1">
+        <div class="modal-dialog mt-0 mt-md-5">
+          <div class="modal-content p-0 m-0">
+            <div class="modal-header p-0 m-0 border-0 px-3 py-2 bg-black">
+              <h6 class="modal-title">Buenos Aires</h6>
+              <button type="button" class="btn-cerrar" data-bs-dismiss="modal" aria-label="Close">X</button>
+            </div>
+            <div class="modal-body p-0 mb-5 pb-4">
+
+                <div id="carouselJujuy" class="carousel slide" data-bs-ride="true">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../img/destinos/buenosaires/PMB_3066.jpg" class="d-block modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_8647-Mejorado-NR.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_8651-Mejorado-NR-2.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_2922.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_2954.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_3046.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_3077.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselJujuy" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselJujuy" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+  
+                <div class="carousel-indicators m-0 d-flex">
+                  <button type="button" data-bs-target="#carouselJujuy" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                      <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_3066.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselJujuy" data-bs-slide-to="1" aria-label="Slide 2">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_8647-Mejorado-NR.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselJujuy" data-bs-slide-to="2" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_8651-Mejorado-NR-2.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselJujuy" data-bs-slide-to="3" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_2922.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselJujuy" data-bs-slide-to="4" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_2954.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselJujuy" data-bs-slide-to="5" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_3046.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselJujuy" data-bs-slide-to="6" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_3077.jpg" class="img-fluid" />
+                  </button>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MODAL CENTRO DEL PAIS -->
+      <div class="modal fade modal-lg mt-3 mt-md-0" id="modalBuenosAires" tabindex="-1">
+        <div class="modal-dialog mt-0 mt-md-5">
+          <div class="modal-content p-0 m-0">
+            <div class="modal-header p-0 m-0 border-0 px-3 py-2 bg-black">
+              <h6 class="modal-title">Buenos Aires</h6>
+              <button type="button" class="btn-cerrar" data-bs-dismiss="modal" aria-label="Close">X</button>
+            </div>
+            <div class="modal-body p-0 mb-5 pb-4">
+
+                <div id="carouselBuenosAires" class="carousel slide" data-bs-ride="true">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../img/destinos/buenosaires/PMB_3066.jpg" class="d-block modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_8647-Mejorado-NR.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_8651-Mejorado-NR-2.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_2922.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_2954.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_3046.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_3077.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselBuenosAires" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselBuenosAires" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+  
+                <div class="carousel-indicators m-0 d-flex">
+                  <button type="button" data-bs-target="#carouselBuenosAires" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                      <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_3066.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselBuenosAires" data-bs-slide-to="1" aria-label="Slide 2">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_8647-Mejorado-NR.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselBuenosAires" data-bs-slide-to="2" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_8651-Mejorado-NR-2.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselBuenosAires" data-bs-slide-to="3" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_2922.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselBuenosAires" data-bs-slide-to="4" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_2954.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselBuenosAires" data-bs-slide-to="5" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_3046.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselBuenosAires" data-bs-slide-to="6" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_3077.jpg" class="img-fluid" />
+                  </button>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade modal-lg mt-3 mt-md-0" id="modalCordoba" tabindex="-1">
+        <div class="modal-dialog mt-0 mt-md-5">
+          <div class="modal-content p-0 m-0">
+            <div class="modal-header p-0 m-0 border-0 px-3 py-2 bg-black">
+              <h6 class="modal-title">Buenos Aires</h6>
+              <button type="button" class="btn-cerrar" data-bs-dismiss="modal" aria-label="Close">X</button>
+            </div>
+            <div class="modal-body p-0 mb-5 pb-4">
+
+                <div id="carouselCordoba" class="carousel slide" data-bs-ride="true">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../img/destinos/buenosaires/PMB_3066.jpg" class="d-block modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_8647-Mejorado-NR.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_8651-Mejorado-NR-2.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_2922.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_2954.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_3046.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_3077.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselCordoba" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselCordoba" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+  
+                <div class="carousel-indicators m-0 d-flex">
+                  <button type="button" data-bs-target="#carouselCordoba" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                      <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_3066.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselCordoba" data-bs-slide-to="1" aria-label="Slide 2">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_8647-Mejorado-NR.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselCordoba" data-bs-slide-to="2" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_8651-Mejorado-NR-2.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselCordoba" data-bs-slide-to="3" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_2922.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselCordoba" data-bs-slide-to="4" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_2954.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselCordoba" data-bs-slide-to="5" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_3046.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselCordoba" data-bs-slide-to="6" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_3077.jpg" class="img-fluid" />
+                  </button>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade modal-lg mt-3 mt-md-0" id="modalMendoza" tabindex="-1">
+        <div class="modal-dialog mt-0 mt-md-5">
+          <div class="modal-content p-0 m-0">
+            <div class="modal-header p-0 m-0 border-0 px-3 py-2 bg-black">
+              <h6 class="modal-title">Buenos Aires</h6>
+              <button type="button" class="btn-cerrar" data-bs-dismiss="modal" aria-label="Close">X</button>
+            </div>
+            <div class="modal-body p-0 mb-5 pb-4">
+
+                <div id="carouselMendoza" class="carousel slide" data-bs-ride="true">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../img/destinos/buenosaires/PMB_3066.jpg" class="d-block modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_8647-Mejorado-NR.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_8651-Mejorado-NR-2.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_2922.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_2954.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_3046.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/buenosaires/PMB_3077.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselMendoza" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselMendoza" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+  
+                <div class="carousel-indicators m-0 d-flex">
+                  <button type="button" data-bs-target="#carouselMendoza" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                      <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_3066.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselMendoza" data-bs-slide-to="1" aria-label="Slide 2">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_8647-Mejorado-NR.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselMendoza" data-bs-slide-to="2" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_8651-Mejorado-NR-2.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselMendoza" data-bs-slide-to="3" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_2922.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselMendoza" data-bs-slide-to="4" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_2954.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselMendoza" data-bs-slide-to="5" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_3046.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselMendoza" data-bs-slide-to="6" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/buenosaires/PMB_3077.jpg" class="img-fluid" />
+                  </button>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- MODAL PATAGONIA ARGENTINA -->
+      <div class="modal fade modal-lg mt-3 mt-md-0" id="modalValdez" tabindex="-1">
+        <div class="modal-dialog mt-0 mt-md-5">
+          <div class="modal-content p-0 m-0">
+            <div class="modal-header p-0 m-0 border-0 px-3 py-2 bg-black">
+              <h6 class="modal-title">Península de Valdez</h6>
+              <button type="button" class="btn-cerrar" data-bs-dismiss="modal" aria-label="Close">X</button>
+            </div>
+            <div class="modal-body p-0 mb-5 pb-4">
+
+                <div id="carouselvaldez" class="carousel slide" data-bs-ride="true">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../img/destinos/valdez/PMB_3066.jpg" class="d-block modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/valdez/PMB_8647-Mejorado-NR.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/valdez/PMB_8651-Mejorado-NR-2.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/valdez/PMB_2922.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/valdez/PMB_2954.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/valdez/PMB_3046.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/valdez/PMB_3077.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselvaldez" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselvaldez" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+  
+                <div class="carousel-indicators m-0 d-flex">
+                  <button type="button" data-bs-target="#carouselvaldez" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                      <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/valdez/PMB_3066.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselvaldez" data-bs-slide-to="1" aria-label="Slide 2">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/valdez/PMB_8647-Mejorado-NR.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselvaldez" data-bs-slide-to="2" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/valdez/PMB_8651-Mejorado-NR-2.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselvaldez" data-bs-slide-to="3" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/valdez/PMB_2922.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselvaldez" data-bs-slide-to="4" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/valdez/PMB_2954.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselvaldez" data-bs-slide-to="5" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/valdez/PMB_3046.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselvaldez" data-bs-slide-to="6" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/valdez/PMB_3077.jpg" class="img-fluid" />
+                  </button>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade modal-lg mt-3 mt-md-0" id="modalBariloche" tabindex="-1">
+        <div class="modal-dialog mt-0 mt-md-5">
+          <div class="modal-content p-0 m-0">
+            <div class="modal-header p-0 m-0 border-0 px-3 py-2 bg-black">
+              <h6 class="modal-title">Península de Valdez</h6>
+              <button type="button" class="btn-cerrar" data-bs-dismiss="modal" aria-label="Close">X</button>
+            </div>
+            <div class="modal-body p-0 mb-5 pb-4">
+
+                <div id="carouselBariloche" class="carousel slide" data-bs-ride="true">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../img/destinos/bariloche/PMB_5892.jpg" class="d-block modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/bariloche/PMB_5920-Pano.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/bariloche/PMB_5960.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/bariloche/PMB_5961.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/bariloche/PMB_5962.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/bariloche/PMB_5963.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/bariloche/PMB_5964.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselBariloche" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselBariloche" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+  
+                <div class="carousel-indicators m-0 d-flex">
+                  <button type="button" data-bs-target="#carouselBariloche" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                      <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/bariloche/PMB_5892.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselBariloche" data-bs-slide-to="1" aria-label="Slide 2">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/bariloche/PMB_5920-Pano.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselBariloche" data-bs-slide-to="2" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/bariloche/PMB_5960.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselBariloche" data-bs-slide-to="3" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/bariloche/PMB_5961.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselBariloche" data-bs-slide-to="4" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/bariloche/PMB_5962.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselBariloche" data-bs-slide-to="5" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/bariloche/PMB_5963.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselBariloche" data-bs-slide-to="6" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/bariloche/PMB_5964.jpg" class="img-fluid" />
+                  </button>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade modal-lg mt-3 mt-md-0" id="modalFuego" tabindex="-1">
+        <div class="modal-dialog mt-0 mt-md-5">
+          <div class="modal-content p-0 m-0">
+            <div class="modal-header p-0 m-0 border-0 px-3 py-2 bg-black">
+              <h6 class="modal-title">Península de Valdez</h6>
+              <button type="button" class="btn-cerrar" data-bs-dismiss="modal" aria-label="Close">X</button>
+            </div>
+            <div class="modal-body p-0 mb-5 pb-4">
+
+                <div id="carouselFuego" class="carousel slide" data-bs-ride="true">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="../img/destinos/valdez/PMB_3066.jpg" class="d-block modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/valdez/PMB_8647-Mejorado-NR.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/valdez/PMB_8651-Mejorado-NR-2.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/valdez/PMB_2922.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/valdez/PMB_2954.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/valdez/PMB_3046.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="../img/destinos/valdez/PMB_3077.jpg" class="d-block w-100 h-50 modal--carousel--img" alt="...">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselFuego" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselFuego" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+  
+                <div class="carousel-indicators m-0 d-flex">
+                  <button type="button" data-bs-target="#carouselFuego" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+                      <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/valdez/PMB_3066.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselFuego" data-bs-slide-to="1" aria-label="Slide 2">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/valdez/PMB_8647-Mejorado-NR.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselFuego" data-bs-slide-to="2" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/valdez/PMB_8651-Mejorado-NR-2.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselFuego" data-bs-slide-to="3" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/valdez/PMB_2922.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselFuego" data-bs-slide-to="4" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/valdez/PMB_2954.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselFuego" data-bs-slide-to="5" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/valdez/PMB_3046.jpg" class="img-fluid" />
+                  </button>
+                  <button class="" type="button" data-bs-target="#carouselFuego" data-bs-slide-to="6" aria-label="Slide 3">
+                    <img class="d-block w-100 shadow-1-strong rounded"
+                        src="../img/destinos/valdez/PMB_3077.jpg" class="img-fluid" />
+                  </button>
+                </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
   </body>
