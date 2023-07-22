@@ -1,0 +1,117 @@
+/* .body{ 
+    min-height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #EFEFEF
+   }
+    */
+
+   .slide-content{
+    margin: 0 40px;
+   }
+   
+   .card-nosotros{
+    width: 320px;
+    border-radius: 25px;  
+    background-color: #FFF;
+   }
+    
+   .image-content-nosotros, .card-content-nosotros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+   }
+   
+   .image-content-nosotros{
+    position: relative;
+    row-gap: 5px;
+    padding: 25px 0;
+   }
+   
+   .overlay-nosotros {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(6, 3, 55);
+    border-radius: 25px 25px 0 25px;
+   }
+   
+   .overlay-nosotros::before, 
+   .overlay-nosotros::after{
+    content:'';
+    position:absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px ;
+    width: 40px;
+    background-color: rgb(6, 3, 55) ;
+   }
+   
+   .overlay-nosotros::after{
+    border-radius: 0 25px 0 0;
+    background-color:#FFF;
+   }
+   
+   .card-image-nosotros{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+   }
+   
+   .card-image-nosotros .card-image-nosotros{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid rgb(6, 3, 55);
+   }
+   
+   .name-nosotros{
+    font-size: 18px;
+    font-weight:500px;
+    color: #333;
+   }
+   
+   .description-nosotros{
+    font-size: 14px; 
+    color: gray;
+    text-align: center;
+   }
+   
+   /* .footer-content-nosotros{
+    margin: 10px auto;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+   }
+   footer{
+    background: rgb(6, 3, 55);
+    height: 100vw;
+    width: 100vw;
+    padding-top: 40px;
+    color: #FFF;
+   }
+    */
+   .container-nosotros {
+    background-image:url(../img/nosotros/a3.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 150px ;
+    color:black;
+    height: 400px;
+   }
+   
