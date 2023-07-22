@@ -5,7 +5,7 @@
 
 footer{
   background-color: var(--color-fondo);
-  padding: 30px;
+  padding: 20px 10px 20px 10px;
   text-align: center;
 }
 
@@ -19,8 +19,21 @@ footer{
   color: white;
 }
 
-.about-us p{
-  font-size: 15px;
+.about-us img {
+  width: 70%;
+  margin-bottom: 10px;
+}
+
+.footer--texto-parrafo{
+  font-size: .9rem;
+  color: white;
+  padding: 10px 0px;
+}
+
+.footer--links {
+  text-decoration: none;
+  margin-bottom: 0px;
+  padding: 0px;
   color: white;
 }
 
